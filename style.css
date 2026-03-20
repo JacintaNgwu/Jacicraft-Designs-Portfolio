@@ -203,7 +203,7 @@ left: 55%;
 }
 
 .project-imageB{
-    grid-template-columns: repeat(1,auto);
+    grid-template-columns: repeat(2,auto);
     display: grid;
     justify-content: center;
     align-items: center;

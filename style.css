@@ -276,6 +276,23 @@ left: 55%;
   flex-direction: column;
   align-items: center;
   width: 100%;
+
+  .submit-btn{
+    text-decoration: none;
+    color: #000;
+    background: rgb(255, 192, 3);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .2s ease;
+    }
+
+    .submit-btn:hover{
+    background: #000;
+    color: rgb(255, 192, 3);
+    }
 }
 
 #name,
@@ -301,46 +318,26 @@ left: 55%;
   margin-top: 5px;
 }
 
-.form .submit-btn{
-    text-decoration: none;
-    color: #000;
-    background: rgb(255, 192, 3);
-    margin: 26px 0;
-    padding: 10px 18px;
-    border: none;
-    border-radius: 10px;
-    display: inline-block;
-    transition: .2s ease;
-}
-
-.form .submit-btn:hover{
-    background: #000;
-    color: rgb(255, 192, 3);
-}
-
-.back {
-    
-  text-decoration: none;
-  color: #000;
-  font-size: 20px; 
-}
-
 .footer{
     display: flex;
     flex-direction: row;
-    gap: 100px;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-color: rgb(255, 192, 3);
-    padding: 10px;
-}
 
-.footer-icons ion-icon{
+    ion-icon{
     color: #000;
-    font-size: 25px;
+    font-size: 35px;
     transition: .4s ease;
-}
+    }
 
-.footer-icons ion-icon:hover{
-    color: rgb(255, 192, 3);
+    ion-icon:hover{
+    color: rgb(244, 227, 175);
+    }
+
+    .back {
+    width: 150px;
+    }
+    
+
 }

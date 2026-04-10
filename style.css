@@ -54,8 +54,7 @@
     display: flex;
 
     .info{
-        margin-left: 7%;
-        margin-top: 10%;
+        margin: 10%;
     }
 
     .info h1{
@@ -67,7 +66,10 @@
         font-size: 18px;
         letter-spacing: 2px;
         line-height: 24px;
+    }
 
+    .info h3 {
+        font-size: 28px;
     }
 
     span {
@@ -98,7 +100,7 @@
     height: 0;
 
     .about-me{
-        margin-left: 7%;
+        margin-left: 10%;
     }
 
     .about{

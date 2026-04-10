@@ -329,6 +329,7 @@ left: 55%;
     color: #000;
     font-size: 35px;
     transition: .4s ease;
+    margin-right: 20px;
     }
 
     ion-icon:hover{
@@ -339,5 +340,4 @@ left: 55%;
     width: 150px;
     }
     
-
 }
